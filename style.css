@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(https://i.gifer.com/J4o.gif);
+    align-items: center;
+}
+.main{
+    width: 100%;
+    height: 100vb;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.704),rgba(0, 0, 0, 0.591)),url(https://scontent.fcrk1-2.fna.fbcdn.net/v/t39.30808-6/304771025_468339025307499_4670614291624126133_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=783fdb&_nc_eui2=AeGN0srtd0hwjTc4CwXISjo6TT-FbcUvsUBNP4VtxS-xQAaF96xQqGWACTPrnQEAhyPa14KBiKuSlqs0P7X86Tcm&_nc_ohc=Nx8_Dfop5SkAX_E-BzX&_nc_ht=scontent.fcrk1-2.fna&oh=00_AfC9uwQOcD-NFa-9ySZGUtb6jq9Pea0hSHPZEtfosmyjZA&oe=657C82B4);
+    background-size: 100%;
+    background-position: center;
+    align-items: center;
+}
+.navbar{
+    font-weight: 100;
+    text-align: center;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.logo{
+    width: 100px;
+    cursor: pointer;
+    background-color: orange;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 30%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position:relative ;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: orange;
+    margin-left: 0%;
+    font-size: 14px;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    color: white;
+    margin-left: 0%;
+    margin-top: 14%;
+    padding-left: 0%;
+    padding-top: 40%;
+}
+.main h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 54px;
+    margin-left: 0%;
+    color: orangered;
+    padding-bottom: 1%;
+    padding-left: 3%;
+   
+}
+.main h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 34px;
+    margin-left: 0%;
+    color: orange;
+    padding-bottom: 1%;
+    padding-left: 3%;
+}
+.main h6{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-left: 0%;
+    color: orange;
+    padding-left: 3%;
+   
+}
+.wel h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 54px;
+    color: orangered;
+    text-align: center;
+    padding-top: 3%;
+}
